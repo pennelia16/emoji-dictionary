@@ -15,6 +15,8 @@
 		7CF734B1246214470078C382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF734AF246214470078C382 /* LaunchScreen.storyboard */; };
 		7CF734BC246214480078C382 /* Emoji_DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF734BB246214480078C382 /* Emoji_DictionaryTests.swift */; };
 		7CF734C7246214480078C382 /* Emoji_DictionaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF734C6246214480078C382 /* Emoji_DictionaryUITests.swift */; };
+		7CF734D524621A010078C382 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF734D424621A010078C382 /* Emoji.swift */; };
+		7CF734D72462215B0078C382 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF734D62462215B0078C382 /* DefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		7CF734C2246214480078C382 /* Emoji DictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emoji DictionaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF734C6246214480078C382 /* Emoji_DictionaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_DictionaryUITests.swift; sourceTree = "<group>"; };
 		7CF734C8246214480078C382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CF734D424621A010078C382 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		7CF734D62462215B0078C382 /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +107,11 @@
 				7CF734A6246214440078C382 /* SceneDelegate.swift */,
 				7CF734A8246214440078C382 /* ViewController.swift */,
 				7CF734AA246214440078C382 /* Main.storyboard */,
+				7CF734D62462215B0078C382 /* DefinitionViewController.swift */,
 				7CF734AD246214470078C382 /* Assets.xcassets */,
 				7CF734AF246214470078C382 /* LaunchScreen.storyboard */,
 				7CF734B2246214470078C382 /* Info.plist */,
+				7CF734D424621A010078C382 /* Emoji.swift */,
 			);
 			path = "Emoji Dictionary";
 			sourceTree = "<group>";
@@ -261,7 +267,9 @@
 			files = (
 				7CF734A9246214440078C382 /* ViewController.swift in Sources */,
 				7CF734A5246214440078C382 /* AppDelegate.swift in Sources */,
+				7CF734D524621A010078C382 /* Emoji.swift in Sources */,
 				7CF734A7246214440078C382 /* SceneDelegate.swift in Sources */,
+				7CF734D72462215B0078C382 /* DefinitionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
